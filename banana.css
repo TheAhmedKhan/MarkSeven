@@ -1,10 +1,25 @@
 body{
     margin: 0;
     padding: 0;
+    background-image: url("ferb.png");
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position: 80%;
 }
+
+@media (max-width:600px){
+    body{
+
+        background-size: 150px;
+       
+
+    }
+}
+
 h1{
     text-align: center;
-    background-color: rgb(255, 230, 0);
+    background-color: rgb(135, 61, 204);
+    color: rgb(22, 250, 22);
     margin: 0;
     padding: 2rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -24,6 +39,7 @@ textarea{
     border: 2px solid black;
     width: 30%;
     margin: 5% 34%;
+    background-color: transparent;
 }
 @media (max-width:600px){
     textarea{
@@ -31,6 +47,7 @@ textarea{
         width: 80%;
         border: 2px solid black;
         margin: 4% 10%
+        
        
         
     }
@@ -43,7 +60,9 @@ button{
     height: 2.5rem;
     font-size: 2rem;
     border: none;
-    background-color: rgb(255, 230, 0);
+    letter-spacing: 2px;
+    background-color: rgb(135, 61, 204);
+    color: rgb(22, 250, 22);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
@@ -74,7 +93,8 @@ button{
 footer{
 
     text-align: center;
-    background-color: rgb(255, 230, 0);
+    background-color: rgb(135, 61, 204);
+    color: rgb(22, 250, 22);
     margin: 0;
     padding: 2rem;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -84,5 +104,6 @@ footer{
 }
 h2{
     font-weight: 100;
+    letter-spacing: 2px;
 
 }

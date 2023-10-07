@@ -3,7 +3,7 @@ var inputbox=document.querySelector("#translate-input");
 var outputbox=document.querySelector("#translate-output");
 
 Tbutton.addEventListener("click",buttonClickHandler);
-var url = "https://api.funtranslations.com/translate/minion.json"
+var url = "	https://api.funtranslations.com/translate/ferb-latin.json"
 
 function buttonClickHandler(event) {
     console.log("button clicked");
